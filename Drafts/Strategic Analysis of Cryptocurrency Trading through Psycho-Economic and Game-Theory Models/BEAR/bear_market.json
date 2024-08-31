@@ -1,0 +1,18 @@
+{
+    "market_conditions": {
+        "name": "bear_market",
+        "initial_eth_price": 2500,
+        "price_fluctuation": 300,
+        "mean_reversion_level": 1700,
+        "volatility": 0.05,
+        "trend": "downward",
+        "mu": -0.1
+    },
+    "simulation_parameters": {
+        "days_of_simulation": 2000,
+        "initial_pool_eth": 8,
+        "initial_pool_tkn": 12000,
+        "initial_participants_eth": 10,
+        "initial_participants_tkn": 0
+    }
+}
